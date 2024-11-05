@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box
+}
+
+.header {
+    display: block;
+    
+
+}
+
+p {
+    display: inline-block;
+
+}
