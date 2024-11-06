@@ -1,0 +1,54 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.main {
+background-color: #1f2937;
+height: 300px;
+}
+
+.headers {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.header-logo {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    flex-basis: 80%;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: inline-flex;
+}
+
+.info {
+    color: white;
+    display: flex;
+    margin-top: 20px ;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+p{
+
+}
+.info-subtext {
+    display: flex;
+}
+
+#swirl-tiramisu {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+}
