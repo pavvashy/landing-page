@@ -2,9 +2,16 @@
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .main {
 background-color: #1f2937;
+border-color: #1f2937;
+border-width: 400px;
 height: 300px;
+margin: -1;
 }
 
 .headers {
@@ -129,4 +136,12 @@ button {
     padding:10px;
 }
 
-
+.copyright {
+    background-color: #1f2937;
+    height: 40px;
+    color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
